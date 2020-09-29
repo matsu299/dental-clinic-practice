@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 共通設定 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ページ全体 */
+body {
+  border-top: 10px solid #6DC6C4;
+  background: #F6F6F6;
+}
+
+.page-wrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.header h1 {
+  margin: 50px 0;
+  font-weight: normal;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.header-right {
+  float: right;
+  text-align: center;
+  margin: 15px 0 17px;
+}
+
+.header-adress .tel {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.header-adress .time {
+  font-size: 0.7rem;
+  padding: 10px 20px;
+  border: 1px solid #333;
+}
+
+span.red {
+  color: red;
+}
+
+.discription {
+  font-size: 0.7rem;
+  margin-bottom: 25px;
+}
+
+.header-nav ul {
+  border-radius: 3px;
+}
+
+.header-nav ul li {
+  float: left;
+  width: calc(920px / 5);
+}
+
+.header-nav ul li a {
+  text-align: center;
+  display: block;
+  padding: 18px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 5px #333;
+  background: linear-gradient(to top, #2aa3a1, #6DC6C4);
+  border: 1px solid #2aa3a1;
+}
+
+.titleEn {
+  font-size: 12px;
+}
+
+.header-nav ul li a.first {
+  border-radius: 5px 0 0 5px;
+}
+
+.header-nav ul li a.last {
+  border-radius: 0 5px 5px 0;
+}
+
+.header-nav ul li a:hover {
+  background: linear-gradient(to bottom, #2aa3a1, #6DC6C4);
+  color: #8cf5f3;
+  text-shadow: 1px 1px 5px #2aa3a1;
+}
+
+/* サイドバー */
+aside {
+  margin-top: 20px;
+  width: 260px;
+  float: left;
+}
+
+aside .side-nav {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #2aa3a1;
+}
+
+.side-nav h2 {
+  padding: 15px;
+}
+
+.side-nav li {
+  padding: 0 15px;
+}
+
+.side-nav:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.side-nav h2 {
+  font-weight: normal;
+  font-size: 16px;
+  background: linear-gradient(to top, #2aa3a1, #6DC6C4);
+  color: #fff;
+}
+
+.side-nav ul li a {
+  display: block;
+  border-bottom: 1px solid #6DC6C4;
+  padding: 15px 0;
+}
+
+.side-nav ul li a::before {
+  content: "♦︎";
+  color: #6DC6C4;
+  padding-right: 10px;
+}
+
+.side-nav ul li a:hover {
+  color: #6DC6C4;
+}
+
+/* メイン部分 */
+main {
+  width: 640px;
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+main .mv-image figure img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/* 新着情報 */
+.news {
+  background: #fff;
+  padding: 35px 20px;
+}
+
+.news h2 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #6DC6C4;
+}
+
+.news ul {
+  margin-top: 16px;
+}
+
+.date {
+  float: left;
+  margin-right: 20px;
+}
+
+.news ul li {
+  font-size: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.news ul li:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.news ul li p {
+  overflow: auto;
+}
+
+/* フッター */
+footer {
+  margin-top: 20px;
+  display: block;
+  height: 100%;
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer-nav {
+  border-radius: 5px;
+  background: #6DC6C4;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.footer-nav ul li {
+  float: left;
+  margin-right: 16px;
+}
+
+.footer-nav ul li::before {
+  content: "○";
+  color: inherit;
+  margin-right: 12px;
+}
+
+.footer-nav ul li a {
+  font-weight: bold;
+}
+
+.footer-nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+footer address {
+  font-style: normal;
+  text-align: right;
+  padding: 18px 0;
+  border-bottom: 2px solid #6DC6C4;
+}
+
+footer .copy {
+  text-align: center;
+  padding: 16px 0;
+}
+
+
+
