@@ -346,5 +346,35 @@ footer .copy {
   border-top: 2px solid #6DC6C4;
 }
 
+/* 医院紹介 */
+.bred-nav {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.bred-nav ol {
+  list-style: none;
+}
+
+.bred-nav ol li {
+  float: left;
+}
+
+.bred-nav ol li {
+  float: left;
+}
+
+.bred-nav ol li:not(:last-child)::after {
+  content: ">";
+  margin: 0 10px;
+}
+
+
+
+.bred-nav ol li a {
+  text-decoration: underline;
+  color: #1173e4;
+}
+
 
 
