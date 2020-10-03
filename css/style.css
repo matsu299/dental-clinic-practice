@@ -168,7 +168,7 @@ aside .side-nav {
 }
 
 .side-nav li {
-  padding: 0 15px;
+  padding: 0 15px 10px 15px;
 }
 
 .side-nav:not(:last-child) {
@@ -185,7 +185,7 @@ aside .side-nav {
 .side-nav ul li a {
   display: block;
   border-bottom: 1px solid #6DC6C4;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .side-nav ul li a::before {
@@ -304,7 +304,6 @@ footer {
   }
 }
 
-
 .footer-nav ul li {
   float: left;
   margin-right: 16px;
@@ -347,6 +346,7 @@ footer .copy {
 }
 
 /* 医院紹介 */
+/* パンくずリスト */
 .bred-nav {
   margin-top: 20px;
   font-size: 12px;
@@ -369,11 +369,80 @@ footer .copy {
   margin: 0 10px;
 }
 
-
-
 .bred-nav ol li a {
   text-decoration: underline;
   color: #1173e4;
+}
+
+/* 記事部分 */
+.page-title {
+  height: 100px;
+  background: linear-gradient(to top, #2aa3a1, #6DC6C4);
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #2aa3a1;
+  line-height: 100px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.article-wrapper {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.contents-article {
+  padding: 35px 20px;
+}
+
+.article-title {
+  font-size: 17px;
+  border-bottom: 3px solid #2aa3a1;
+  margin-bottom: 29px;
+  padding-bottom: 16px;
+}
+
+.article-subtitle {
+  color: #2aa3a1;
+  margin: 16px 0 20px 0;
+}
+
+.article-paragrah {
+  font-size: 14px;
+}
+
+.contents-article table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 14px;
+  margin-top: -14px;
+}
+
+.contents-article tr {
+  height: 45px;
+}
+
+.contents-article th,td {
+  border: 1px solid rgb(124, 124, 124);
+}
+
+.contents-article th {
+  background: #D1D1D1;
+}
+
+.contents-article dl {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+
+.contents-article dt {
+  float: left;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
 
