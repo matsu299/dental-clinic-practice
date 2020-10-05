@@ -445,5 +445,28 @@ footer .copy {
   font-weight: bold;
 }
 
+/* アクセスページ */
+.map-link {
+  font-size: 12px;
+  border-bottom: 3px solid #6DC6C4;
+  padding-bottom: 20px;
+}
 
+.map-link a {
+  text-decoration: underline;
+  color: #1173e4;
+}
+
+.clinic-info address {
+  font-style: normal;
+}
+
+.clinic-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.contents-article-access {
+  margin-top: -50px;
+}
 

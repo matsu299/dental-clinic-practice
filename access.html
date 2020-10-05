@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- ページタイトル ここから -->
-		<title>Dental Clinic</title>
+		<title>アクセス｜Dental Clinic</title>
     <!-- ページタイトル ここまで -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,41 +40,54 @@
           <li><a href="clinic.html"><span class="titleJa clearfix">医院紹介</span><span class="titleEn">CLINIC</span></a></li>
           <li><a href="service.html"><span class="titleJa clearfix">診療案内</span><span class="titleEn">SERVICE</span></a></li>
           <li><a href="#" target="_blank"><span class="titleJa  clearfix">院長・スタッフ紹介</span><span class="titleEn">STAFF</span></a></li>
-          <li><a href="access.html" class="last"><span class="titleJa clearfix">アクセス</span><span class="titleEn">ACCESS</span></a></li>
+          <li><a href="#" class="last"><span class="titleJa clearfix">アクセス</span><span class="titleEn">ACCESS</span></a></li>
         </ul>
       </nav>
       <!-- ナビゲーション ここまで -->
     </header>
 
-    <main class="clearfix">
-      <section class="mv-image">
-        <figure><img src="img/mv-image.jpg"></figure>
-      </section>
+    <nav class="bred-nav clearfix">
+      <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+        <!-- 1つめ -->
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="index.html">
+            <span itemprop="name">トップページ</span>
+          </a>
+          <meta itemprop="position" content="1">
+        </li>
 
-      <section class="news">
-        <h2>新着情報</h2>
-        <ul>
-          <li>
-            <time class="date" datetime="2012-06-20">2012年08月01日</time>
-            <p>【診療時間変更のお知らせ】長期休診の前日8月11日は、通常より1時間長く診療をすることにしました。ご予約をお待ちしております。</p>
-          </li>
-          <li>
-            <time class="date" datetime="2012-06-20">2012年07月24日</time>
-            <p>【8月の休診のお知らせ】8月12日～16日の間は休診とさせていただきます。何卒よろしくお願いいたします。</p>
-          </li>
-          <li>
-            <time class="date" datetime="2012-06-20">2012年07月02日</time>
-            <p>【こどもデンタル教室のご案内】毎月第2土曜日に行っているこどもデンタル教室では、参加してくださるお子様を募集しております。</p>
-          </li>
-          <li>
-            <time class="date" datetime="2012-06-20">2012年06月20日</time>
-            <p>【7月休診日のお知らせ】7月は土日祝日以外の休診日はありません。ご来院お待ちしております。</p>
-          </li>
-          <li>
-            <time class="date" datetime="2012-06-20">2012年06月01日</time>
-            <p>ホームページをリニューアルしました。</p>
-          </li>
-        </ul>
+        <!-- 2つめ -->
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="service.html">
+            <span itemprop="name">診療案内</span>
+          </a>
+          <meta itemprop="position" content="2">
+        </li>
+      </ol>
+    </nav>
+
+    <main class="main clearfix">
+      <section class="contents">
+        <h2 class="page-title">アクセス</h2>
+        <div class="article-wrapper">
+          <article class="contents-article">
+            <h3 class="article-title">アクセスマップ</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.600058521354!2d130.41853335047747!3d33.58973194931463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191c7e6f9b375%3A0x2ee22b3d45b98b90!2z5Y2a5aSa6aeF!5e0!3m2!1sja!2sjp!4v1601912441908!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="map-link"><a href="https://goo.gl/maps/wYt2xRC8NBLhZZzx8" target="_blank">大きな地図でみる</a></div>
+          </article>
+          <article class="contents-article contents-article-access">
+            <div class="clinic-image"><img src="img/mv-image.jpg" width="200px" height="200px"></div>
+            <div class="clinic-info clearfix">
+              <h3 class="article-subtitle">デンタル クリニック</h3>
+              <address>東京都新宿区市谷左内町21-13<br><br>
+                JR総武線・都営地下鉄市ヶ谷駅方面から徒歩7分<br>
+                東京メトロ有楽町線・南北線市ヶ谷駅方面から徒歩5分
+              </address>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
 
