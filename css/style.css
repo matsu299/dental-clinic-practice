@@ -459,6 +459,7 @@ footer .copy {
 
 .clinic-info address {
   font-style: normal;
+  font-size: 14px;
 }
 
 .clinic-image {
@@ -470,3 +471,10 @@ footer .copy {
   margin-top: -50px;
 }
 
+
+@media screen and (max-width:920px) {
+  .clinic-image {
+    float: none;
+    text-align: center;
+  }
+}
